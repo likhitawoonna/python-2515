@@ -37,8 +37,9 @@ print(f"customer id {customer_id}")
 print(f"customer name {customer_name}")
 print(f"enter years of partner {years_partnership}")
 print(f"base fee {deal_value}")
-print(f"discount saved {final_amount}")
+print(f"discount saved {final_amount*100}%")
 print(f"final amount {discounted_deal}")
+print(f"amount saved:{deal_value-discounted_deal}")
 
 
 
