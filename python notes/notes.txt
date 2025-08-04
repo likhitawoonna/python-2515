@@ -1,0 +1,907 @@
+30th June 2025    
+==============
+
+    -> Programming Language
+
+        Global   North  South (Regions)  
+    -> English, Hindi, Telugu etc
+
+        -> Communication for Humans
+
+    -> Programming Language
+
+        -> Communication for Computers/Machines etc
+
+        -> Python, Java, C, HTML, JS etc (Domains)  
+
+            -> Java (Banking, Enterprise etc )
+
+                -> ROBUSTNESS 
+
+                -> APPLICATIONS ARE FAST
+
+                -> SPEED OF DEVELOPMENT (SLOW)
+
+            -> Python (AI, DS, Cloud, Backend Systems etc)
+
+                -> EASINESS (SYNTAX)
+
+                -> SPEED OF DEVELOPMENT (FAST)
+
+
+    -> Programming Paradigms
+
+        -> Imperative
+
+            -> HOW TO DO SOMETHING (Python)
+
+        -> Declarative
+
+            -> WHAT TO DO (SQL)
+
+    
+    -> Programming Language Types
+
+        -> HIGH LEVEL
+
+            -> EASY TO UNDERSTAND BY USERS
+
+            -> Python is High Level Programming Language
+
+        -> LOW LEVEL
+
+            -> EASY TO UNDERSTAND BY MACHINES
+
+    -> 01010111(W) 01100101(e) 01101100 01100011 01101111 01101101 
+       01100101 00100000 01010100 01101111 00100000 01010000 
+       01111001 01110100 01101000 01101111 01101110    (Low Level/Machine Level)    
+
+       -> Embedded Systems, Networking, System Drivers, OS Level etc 
+
+    ->  print("Welcome To Python")
+
+    -> Indentation
+
+        -> Simple Java Program (Calculate Sum Of Two Numbers)
+
+            --> Main.java    
+            public class Main {
+                public static void main(String[] args) {
+                    public String a = 10;
+                    public int b = 10;
+                    public String text = "hello";
+                    int sum = a+b;
+                    System.out.println("Sum is": +sum)
+                }
+            }
+
+        -> Simple Python Program (Calculate Sum Of Two Numbers) 
+
+            --> main.py
+            a = 10
+            b = 10
+            text = "hello"
+            print("Sum is:",a+b )
+
+    -> Daily 45 Mins (9:15 AM to 10 AM)
+
+1st July 2025    
+==============
+
+    -> Python -> Author -> Guido van Rossum
+
+    -> Python 1st version - Feb 1991
+
+    -> ABC Programming Language 
+
+    -> Key Features Of Python / Why Python ?
+
+        -> Simple & Easy (Readability - Indentation(spaces))
+
+        -> Cross Platform (RUN ANYWHERE in macos / win / linux )
+
+        -> Dynamically Typed (Data we don't need to ASSIGN TYPES)
+
+        -> Versatile (Extensive Library Support)
+
+            -> DS / ML / AI : Numpy, Pandas, Tensorflow, PyTorch etc
+
+            -> Web Development : Django, Flask, FASTAPI etc 
+
+            -> Scripting / Automation: Boto3, Azure Python SDK, Web Scrapping etc
+
+            -> Desktop Applications: Tkinter, PyQT etc
+
+        -> Interpreted
+
+            -> Compiled (Java)        vs          Interpreted (Python)
+
+                -> Whole Programs                     -> Line By Line  
+                runs once
+
+                -> FAST                              -> SLOW
+
+                -> App Development is SLOW           -> App Development is FAST   
+
+                -> We need more softwares            -> Only focus is on interpreter
+                    compiler, interpreter 
+        
+        -> OOPS (Class & Objects) ( To Represent REAL WORLD ENTITIES )
+
+            -> OOPS Features
+
+                -> Inheritance    (REUSE)
+                -> Abstraction    (Hiding Implementation(Methods) ) 
+                -> Polymorphism   (Many Forms)  (NetBanking, UPI, Credit Card) 
+                -> Encapsulation  (Hiding DATA)  
+
+        -> Functional Programming Language
+
+            -> Lambda Functions / Lambda Expressions (Concise Coding)
+
+    -> Popular Applications Built Using Python ?
+
+        -> Three Tier Architecture
+
+            -> Frontend Tier (HTML,CSS,JS) (Client side tech)   --> EXECUTION ( YOUR DEVICE (your laptop) )
+            -> Backend Tier (Java, Python, Nodejs, C# )         --> EXECUTION ( SERVERS (OnPrem / Cloud) )
+            -> Database Tier (SQL(MySQL, Postgres, MS SQL etc), NOSQL(MongodDB, DynamoDB, CosmosDB etc)) --> EXECUTION ( SERVERS (OnPrem / Cloud) )
+
+2nd July 2025    
+==============
+
+    -> Python Environment (Python Runtime)
+
+    -> I have Python App, to run it we need, Python Environment.
+
+    -> Verify Python Runtime
+
+        -> python --version
+    
+    -> We can execute python code in two different modes
+
+        -> Script Mode 
+
+            -> We use files to write the code and execute
+
+            -> In real time we use Script Mode 
+
+            -> We use  (Integrated Development Environment)
+
+        -> Command Line Mode / Interactive Mode
+
+            -> we use CLI, (Command Prompt), to write the code and execute
+        
+        -> IDE 
+
+            -> VS Code (Will use this) --> Very Light Weight & Lot Of Extensions
+            -> PyCharm
+            -> Eclipse
+            -> Notepad++ 
+            -> ATOM
+            -> Sublime Text etc
+
+        -> When we write python code, we cannot use our own Language
+            we need to use what only python interpreter knows
+
+        -> Python Syntax / Python Code Rules
+
+            -> peps.python.org/pep-0008
+
+        -> In python we have keywords
+
+    -> keywords
+
+        -> Predefined reserved words, that have special meaning to python interpreter
+
+        -> We have 35 keywords
+
+3rd July 2025    
+==============
+
+    -> Version Controlling 
+
+        -> Tracking CHANGES(CODE/FILES) over a period of time
+
+        -> Git (Client) - Tracks changes inside laptop
+
+            -> git config --global user.name ravi2krishna
+            -> git config --global user.email ravi2krishna@gmail.com
+        
+        -> GitHub (Service/Server) - Tracks changes over organization level
+
+            -> Create GitHub Account 
+            -> Create Repository (Project with history)
+        
+        -> Using VS Code (Clone Repository from GitHub)
+
+            -> Write code (VS Code + Git)
+            -> Stage code (VS Code + Git)
+            -> Commit Code (VS Code + Git)
+            -> Push Code (VS Code + GitHub)
+
+7th July 2025    
+==============
+
+    -> Identifiers
+
+        -> Names 
+
+            -> Variables
+            -> Functions
+            -> Modules
+            -> Classes
+            -> Objects
+            -> Methods
+            -> etc
+
+    -> Identifiers Rules
+
+        -> Can Contain
+
+            -> Letters(a-z, A-Z)
+            -> Digits(0-9)            
+            -> UnderScore(_)
+
+        -> Should Start with
+
+            -> A letter(a-z, A-Z) or
+            -> UnderScore(_)   
+
+        -> Cannot Start with Digits
+        -> Cannot be a python keywords(def, if, class etc)        
+        -> Identifiers are case sensitive (Name, name, NAME)
+
+
+    -> Variables
+
+        -> Variables are names of Memory Locations, which are used to STORE DATA
+       
+       -> Variables allow you to
+
+            -> Manipulate Data
+            -> Access Data
+            -> Hold Data
+
+       -> Variables should follow naming conventions
+
+            ->  Identifiers Rules 
+
+       -> Java 
+
+            -> String brand = "Levis";
+            -> float ratings = 4.2f;
+            -> int price = 1600
+            -> int size = 32
+
+        -> Python (Dynamic Typing)
+        
+            -> brand = "Levis" 
+            -> ratings = 4.2
+            -> size = 32    
+
+        -> id function : prints the memory address
+
+        -> type function : prints the datatype being assigned
+
+        -> Outputs
+
+            -> print - to Output values
+
+            -> Concatenation : Combining two more more strings
+                -> + (when used with strings) 
+                -> + (when used with numbers - addition operator) 
+
+        -> Naming conventions
+
+            # ProductName --> Pascal Case (ClassNames)
+
+            # productName --> CamelCase (objectNames)
+
+            # product_name --> SnakeCase (When using variables & functions)
+
+
+8th July 2025    
+==============
+
+    -> Interpolation
+
+        -> In context of Programming, Interpolation means REPLACING PLACEHOLDERS with 
+        ACTUAL VALUES
+
+        -> To achieve this, we can use f-strings(Formatted String Literals) in Python
+
+        -> In f-strings we use { } to Represent variables which will be replaced with ACTUAL values
+
+    -> Operators
+
+        -> Special symbols, that performs operations on variables and values(Operands)
+
+        -> We use Operators to Manipulate variables
+
+        -> Types
+
+            -> Arithmetic Operators 
+
+                -> Mathematical Calculations
+
+                -> + - * / % // **
+
+            -> Compound Assignment Operators
+
+                ->  Combine Assignment operator with Arithmetic Operators  
+
+                -> =,+=, -=, *= etc  
+
+                -> For concise (shorter) syntax
+
+                -> x = x + 5 or -> x += 5
+
+                -> Other Programming Languages like java we have decrement(--) and increment(++) 
+
+                    -> NOTE: python doesn't support decrement(--) and increment(++) 
+            
+            -> Comparison / Relational Operators
+
+                -> Used to compare values and returns a boolean
+
+                -> ==, !=, >, <, <=, >=  
+
+                -> For strings it will check, Lexicographical order i.e Dictionary Order
+                   based on ASCII Values
+
+            -> Logical Operators
+
+                -> Used to combine multiple conditions
+
+                -> and, or, not
+
+                X       Y           X and Y         X or Y    not X
+
+                T       T              T              T         F
+                T       F              F              T         F     
+                F       T              F              T         T
+                F       F              F              F         T
+
+            -> Membership Operators   
+
+                -> Used to check if a sequence is present
+
+                -> If sequence found, returns True
+                -> If sequence not found, returns False
+
+                    -> in 
+                    -> not in
+
+            -> Identity Operators
+
+                -> Used to compare the Objects, not if they are equal(==)
+
+                    -> is
+                    -> is not
+
+            -> Bit Wise Operators
+
+                -> Used to perform operations on binary bits
+
+                -> Use Cases - Embedded Systems, Network Programming etc
+
+                -> &(AND), |(OR), ^(XOR), ~(NOT), <<(Left Shift), >>(Right Shift)
+
+                -> & : sets each bit to 1 if both are 1
+                -> | : sets each bit to 1 if of of the bit is 1
+                -> ^ : sets each bit to 1 if only one of the bits is 1
+                        -> meaning if both values are different then output is 1, 
+                            if both values are same then output is zero
+                -> ~ : inverts the bits
+
+                -> << : Shift left pushing zeros in from right, let the leftmost bits fall off
+
+                -> >> : Sift right by pushing the leftmost bits from the left, 
+                    let the rightmost bits fall off
+
+
+
+                X       Y             X & Y         X | Y     X ^ Y
+
+                1       1               1             1         0
+                1       0              
+                0       1              
+                1       1              
+
+9th July 2025    
+==============
+
+    -> Data Types
+
+        -> Numeric Types
+
+            -> Integer - Whole numbers
+
+                10,20,-10
+            
+            -> Floating Points - Decimal numbers
+
+                3.14, 1.5
+
+            -> Complex Numbers (a+ib) --> i imaginary part
+
+                -> In python we use j instead of i
+
+                -> c = 5 + 5j
+        
+        -> Text Types 
+
+            -> String (a sequence of characters)
+
+            -> In python we don't have character data type
+
+        -> Boolean Types
+
+            -> True
+            -> False
+
+        -> Data Structures
+
+            -> Sequence Types
+
+                -> Lists
+
+                    -> Sequence of values separated with commas, declared inside []
+                    -> Mutable Data (Data can be changed)
+                    -> teams = ["IND","AUS","ENG"]    
+                    -> scores = [5,4,3]
+
+                -> Tuples
+
+                    -> Sequence of values separated with commas, declared inside ()
+                    -> Immutable Data (Data cannot be changed) 
+                    -> teams = ("IND","AUS","ENG")
+                    -> scores = (5,4,3)
+
+                -> Sets
+
+                    -> Sequence of values separated with commas, declared inside { }
+                    -> Mutable Data (Data can be changed)
+                    -> teams = {"IND","AUS","ENG"}
+                    -> scores = {5,4,3}
+                    -> NO DUPLICATES ALLOWED, so data should be UNIQUE ONLY
+
+                -> Maps
+
+                    -> Sequence of key:value pairs separated with commas, declared inside { }
+                    -> Mutable Data (Data can be changed)
+                    -> info = {"name":"ravi","city":"hyd","time":"9am"}
+
+        -> None type
+
+            -> Represent the absence of value            
+
+11th July 2025    
+==============
+
+    -> Type Conversion & Type Casting
+
+    -> Type Conversion
+
+        -> Conversion of one datatype to another data type
+
+        -> Implicit (You Don't need to do) --> Python interpreter will do it automatically
+
+            -> Automatic Conversion - Widening (Taking Smaller Data Type and Putting in Larger DT)
+
+        -> NOTE: NO DATA LOSS WILL OCCUR
+
+
+    -> Type Casting
+
+        -> Conversion of one datatype to another data type
+
+        -> Explicit Conversion (You need to do) --> Manually you need to perform Type Casting
+
+            -> No Automatic Conversion - Narrowing (Taking Larger Data Type and Putting in Smaller DT)
+
+        -> NOTE: DATA LOSS WILL OCCUR    
+
+    -> NOTE: If you attempt to convert Incompatible Types i.e converting a non-numeric string
+    ti integer we get Errors.
+
+12th July 2025    
+==============
+
+    -> Control Statements / Structures
+
+        -> Conditional Statements (Decision Making Statements)
+
+        -> Looping Statements (Iteration Statements)
+
+        -> Branching Statements (Jump Statements)
+
+    -> Conditional Statements    
+
+        -> Also called as Decision Making Statements
+
+        -> Decision/condition --> True/False (Boolean)
+
+        -> Types Of Conditional Statements    
+
+            -> if Statement : Runs code block only if condition is true
+
+            -> if-else Statement: Runs one code block if condition is true, another code block
+                if condition is false
+
+                -> ternary operator is also known as Conditional Operator
+
+                -> it is concise form of if-else Statement
+
+                    -> Syntax 
+
+                        value_if_true if condition else value_if_false
+
+            -> elif Statement: Check multiple conditions and run appropriate code blocks
+
+            -> match-case Statement (python 3.X): Check multiple conditions and run appropriate code blocks
+
+
+        -> input() - input function is used to take user input from keyboard, and interact with Program
+
+            -> input() process everything as String, use casting 
+
+
+14th July 2025    
+==============        
+
+    -> match-case Statement (python 3.X): Check multiple conditions and run appropriate code blocks
+
+    -> we can use range() function - to generate a sequence of numbers (loops & conditions)
+
+
+16th July 2025    
+==============    
+
+    -> Loops - Used to perform REPETITIVE Tasks/Steps
+
+        -> while loop
+
+            -> Run / Repeat code block as long as the condition is TRUE
+
+            -> If you don't know number of Iterations before hand, use while loop
+
+            -> Syntax
+
+                while condition:
+                    Statements
+
+        -> for loop
+
+            -> Used for Iterations in a sequence types(list, strings, tuples, range etc)
+
+            -> If you number of Iterations before hand, use for loop
+
+            -> Syntax
+
+                for element in sequence:
+                    Statements    
+
+    -> range()
+
+        -> loop the range of numbers 
+
+        -> range(start,stop,step) 
+
+        -> range(10) --> 0 to 9
+        -> range(1,10) --> 1 to 9          
+        -> range(1,10,1) --> 1 to 9
+        -> range(10,1,-1) --> 9 to 1
+    
+    -> Branching Statements (Jump Statements) 
+
+        -> break : terminate the loop immediately
+        -> continue : skip the current Iteration
+        -> pass : do nothing(placeholder that does nothing)
+
+
+18th July 2025    
+==============  
+
+    -> Strings - Sequence Of characters
+
+        -> Reperesent Strings
+
+            -> 'hello'
+            -> "hello"
+            -> ''' multi line strings '''
+
+        -> String Slicing
+
+        -> String Immutability
+
+            -> Immutable means cannot change
+
+        -> String Concatenation
+
+        -> String Repeatetion
+
+        -> String Methods
+
+            -> Methods : Task (takes input, process and give output)
+
+            -> dir() function --> used to list all the attributes, methods of specified object
+
+            --> help() --> documentation tool
+
+21st July 2025    
+==============
+
+    -> LMS With String Functionalities
+
+23rd July 2025    
+==============
+
+    -> Any data we used so far we stored inside a variable
+        -> value = 10
+        -> value = "Hello"
+        -> Using Variables we store ONLY ONE VALUE
+
+        -> values = 10,20,30 (Incorrect with variables)
+
+    -> Where i want to store more than one value or MULTIPLE Values,
+        we use Collections
+
+        -> values = [10,20,30] (Correct with Collections)     
+
+    -> Collections
+
+        -> Using Collections we can store more than one value or 
+            MULTIPLE Values
+        
+        -> Python provided 4 Classes to handle multiple values
+            -> Lists
+            -> Tuples
+            -> Dictionaries
+            -> Sets
+    
+    -> Data Structure - Way of organizing and storing data 
+
+    -> Lists 
+
+        -> List is a built-in data structure, which allows to
+        store multiple items in a single variable using []
+
+        -> Lists are one of mostly widely used data structures
+        in python
+
+        -> Inside Lists we have different types of data
+
+        -> Access data inside Lists
+
+            -> Each item inside a list has a position, called Index
+            -> Index starts from 0 same as in strings or any iterable
+            -> Both Positive & Negative supports
+            -> Indexing and Slicing supports, same as string
+
+                 -5  -4  -3   -2  -1
+                [10, 20, 30, 40, 50]
+                 0    1   2   3   4 
+
+        -> When working with lists, memory is allocated separately 
+        for every list object, even though values are same.
+
+        -> Individual elements inside the list, will refer to same object
+
+        -> If you access an index out of range, we get errors
+
+        -> We can create lists using list class 
+
+        -> How to know which object is iterable or not ?
+
+            -> use dir() and check for __iter__
+
+        -> Lists Support Various Methods to perform different 
+            operations based on the requirements
+
+        -> List Methods (11) 
+
+            'append', 'clear', 'copy', 'count', 'extend', 'index',
+            'insert', 'pop', 'remove', 'reverse', 'sort
+
+25th July 2025    
+==============
+
+    -> List Methods 
+
+    1 -> append : adds an element to the end of the list
+         element can be a number, string or list also
+
+    2 -> extend : takes an iterable (list, tuples, strings), and add
+    each element to the list Individually
+
+    NOTE: Both append & extend will take only single argument
+
+    3 -> insert : insert allows you to insert an element at
+        a specific position(index)
+
+            -> if you give index out of range, element is added
+            at the end of the list
+
+            -> insert will move the positions, but not replace
+
+    4 -> pop - will remove and returns an element from the list
+        removes last element
+
+    5 -> remove - will remove based on pattern, not by index
+        By default first occurrence is removed, 
+        If pattern is not found, we get error  
+
+    6 -> clear - clears all the elements in list  
+
+    7 -> index - returns index position
+        -> element is must
+        -> start is optional, default start is 0
+        -> end is optional, default end is end of list
+    
+    8 -> count - returns number of times an element is appeared
+
+    9 -> copy - creates a shallow copy, duplicating without 
+    affecting the original
+
+        -> if you want soft copy use Assignment
+    
+    10 -> reverse - reverses the elements in the list, 
+        updates the original list
+
+        -> Reverse but don't update original list (Slicing)
+
+    11 -> sort - sorts the list either in ascending or descending
+        -> Default is ascending
+        -> If you need descending, update reverse as True
+        -> Sort can be possible only with same type of data, 
+            mix data we cannot sort
+
+
+    -> Lists Characteristics
+
+        -> Ordered - Items stored and order is preserved
+
+        -> Mutable - You can change the data (append, remove etc)
+
+        -> Allows Duplicates - Same element can be stored multiple times
+
+        -> Can Hold Any Type Of Data 
+
+
+28th July 2025    
+==============
+
+    -> Tuples - Tuples are also built in data structure, to store 
+    multiple items using a single variable, using parenthesis ()
+
+    -> NOTE - Tuples are IMMUTABLE (Cannot Change) 
+
+    -> Use Tuples, when you have READ ONLY Functionalities
+
+    -> Tuples have only TWO methods
+
+        -> index - returns index position
+            -> element is must
+            -> start is optional, default start is 0
+            -> end is optional, default end is end of list 
+        -> count - returns number of times an element is appeared 
+    
+    -> Tuples Characteristics
+
+        -> Ordered - Items stored and order is preserved
+
+        -> Immutable - You cannot change the data 
+            -> Only Access (index & count only)
+
+        -> Allows Duplicates - Same element can be stored multiple times
+
+        -> Can Hold Any Type Of Data 
+
+        -> NOTE - Use tuples only for data safety(fixed data/constants)
+
+30th July 2025    
+==============
+
+    -> Dictionaries -  Dictionaries are also built in data structure, 
+    to store multiple items as collection of key value pairs 
+    using a single variable, using curly braces { }
+
+    -> Dictionaries are based on key values, rules to check
+
+        -> Keys must be Immutables Only(Strings, Numbers, Tuples)
+            -> 95% or more than that, we use strings as keys
+        -> Values can be any object
+
+    -> Dictionaries Will not support Indexing
+
+        -> NO Indexing and Slicing is supported in Dictionaries
+    
+    -> Dictionaries Characteristics
+
+        -> Ordered - Have defined order
+
+        -> Mutable - You can add, change and remove
+
+        -> Allows Duplicates - Same element can be stored multiple times only Values
+
+            -> Keys are unique (No Duplicates fpr keys)
+
+        -> Keys must be Immutables Only
+
+        -> Values can be any object
+
+        -> NOTE - Store data with a label(key)
+
+            -> Need to look up values quickly based on a name, id etc
+
+1st Aug 2025    
+==============
+
+    -> Sets - Sets are also built in data structure, to store 
+    multiple values using a single variable, using curly braces { }
+
+        -> In sets we don't have key value pairs
+
+        -> Lists - [10,20,30,40,50]
+        -> Tuples - (10,20,30,40,50)
+        -> Sets - {10,20,30,40,50}
+
+    -> Sets are UUU
+
+        -> Unordered
+        -> Unindexed
+        -> Unique elements
+
+        -> NOTE: Duplicates are automatically removed
+
+        -> Used especially for performing Mathematical set operations like
+            union, intersection, difference & symmetric difference
+
+        -> NOTE - TypeError: 'set' object is not subscriptable
+
+        -> not subscriptable - means you cannot use [index] and access
+            elements like in list and tuples
+
+        -> unhashable - means you are using list as a key in Dictionary or
+            adding a list as an element is set (immutables allowed)
+
+    -> Sets operations
+
+        -> 17 operations
+
+    -> Set Characteristics
+
+        -> UnOrdered - Items stored in random order
+
+        -> Mutable - You can change the data 
+
+        -> No Duplicates - Duplicate element will be removed
+
+        -> Can Hold Any Type Of Data 
+
+        -> Unindex for sets (not subscriptable)
+
+        -> When To Use Sets
+
+            -> Uniqueness in data
+            -> Mathematical Set Operations (union, intersection etc)
+
+        -> Regular Sets are Mutable
+        -> Frozen sets are Immutable   
+
+        -> Frozen sets only support
+
+            -> union, intersection, difference, symmetric difference,
+                issubset, issuperset, isdisjoint
+
+4th Aug 2025    
+==============
+
+-> Application Setup Using 
+
+    -> Lists
+    -> Tuples
+    -> Dictionaries
+    -> Sets
