@@ -905,3 +905,138 @@
     -> Tuples
     -> Dictionaries
     -> Sets
+6th Aug 2025    
+==============
+
+-> Functions
+
+-> In python, function is a block of code that does 
+    some TASK / ACTION
+
+-> We use functions to get reuseable code, to avoid REPETITION
+
+-> Breaking down complex/large tasks, into smaller manageable blocks 
+    of tasks
+
+-> function syntax
+
+    def function_name():
+        Statements
+
+-> functions with parameters
+
+    -> this type of functions, allow you to pass data to 
+        function, when you call it
+    
+    -> Based on inputs, you can use different logics, 
+    make code more dynamic and flexibility
+
+    -> def arithmetic(a,b):
+    print(a+b)
+
+        # a & b -> parameters
+        # 10 & 20 -> arguments
+
+-> Python Supports different ways to pass arguments to functions
+
+    -> Positional Arguments
+    -> Keyword Arguments
+    -> Default Arguments
+    -> Variable Length Positional Arguments(*args)
+    -> Variable Length Keyword Arguments(**kwargs)
+
+-> Positional Arguments
+
+    -> Pass arguments in the exact order, defined in function
+
+    -> Position matters, like first argument goes to first parameter,
+    second argument goes to second parameter and so on
+
+8th Aug 2025    
+==============
+
+-> Default Arguments
+
+    -> Passing default values to the arguments at function declaration
+
+    -> If we pass any value to the default argument at function call,
+        default value will be overridden by new value passed
+    
+    -> If no value is passed to default arguments, default values declared
+        at function declaration will be considered
+
+    -> Once you declare default parameters, next all consecutive parameters
+    should be default only, not any other    
+
+-> Keyword Arguments
+
+    -> Arguments are passed by Explicitly specifying the name
+
+    -> so function call is based on name of the arguments
+
+    -> Improves code readability and also avoids confusion -> as order doesn't matter
+
+    -> Once you declare Keyword parameters, next all consecutive parameters
+    should be Keyword only, not any other    
+
+    -> If the key is not found or proper key is not given, we get ERRORS
+
+-> Variable / Arbitrary Positional Arguments(*args)
+
+    -> Allows the functions to accept any number of Positional Arguments
+
+    -> Used when we don't know how many arguments a function would receive
+
+    -> Represented using *
+
+    -> All the arguments passed are collected into a tuple 
+
+
+-> Variable / Arbitrary Keyword Arguments(**kwargs)
+
+    -> Allows the functions to accept any number of Keyword(Named) Arguments
+
+    -> Used when we don't know how many arguments a function would receive
+
+    -> Represented using **
+
+    -> All the arguments passed are collected into a Dictionary
+
+-> NOTE - We can use both Arbitrary Positional Arguments and
+    Arbitrary Keyword Arguments together, good for Dynamic data inputs
+
+-> Functions With Return Values
+
+    -> Be default functions will not give any response
+
+    -> To give response, use return keyword
+
+    -> Always give appropriate response with return, as python is dynamic Typed
+        can take any value
+    
+    -> Return Statement, should be the last Statement, in the function execution
+
+
+-> Scopes in Functions
+
+    -> Scope means how variable can be accessed based on where the variable is defined
+
+    -> Local Scope
+
+        -> A local variable is declared inside a function
+
+        -> It only exists while the function runs
+
+        -> You cannot use it outside the function
+
+        -> NOTE: Earlier we have defined parameters, those are also local variables
+
+    -> Global Scope
+
+        -> A Global variable is declared outside a function
+
+        -> It can be used anywhere in code, inside and outside function
+
+        -> By default it is READ ONLY 
+
+        -> If you want to change the value, then you need a keyword called global
