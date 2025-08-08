@@ -53,7 +53,7 @@ while True:
                 skill_input = input("Enter a skill or type done")
                 if skill_input == "done":
                     break
-                skills.add(skill_input.strip().title)
+                skills.add(skill_input.strip().title())
                 
                 
             # Save the student details so far we collected
@@ -78,10 +78,51 @@ while True:
        
     elif choice == "3":
        print("Performing Choice 3 Operation")
+       student_id = input("Enter Student ID To Delete: ") 
+       removed = students.pop(student_id,None)
+       if removed:
+           print("Student Deleted Successfully")
+           print(students)
+       else:
+           print("Student ID Not Found")
     elif choice == "4":
-       print("Performing Choice 4 Operation")     
+       print("Performing Choice 4 Operation")
+       if not students:
+           print("No Students Available")
+       else:
+         print("All Students Information")
+         for sid, data  in students.items():
+             name = data["name"] # ravi
+             scores = data["scores"] # 90,80,90
+             
+             if scores:
+                 avg = sum(scores) / len(scores)
+             else:
+                 avg = 0    
+             
+             if scores:
+                 top_score = max(scores)
+             else:
+                 top_score = 0
+        
+             skills =  data["skills"] #  git, python 
+             
+             print(f"ID: {sid}")
+             print(f"Name: {name}")
+             print(f"Scores: {scores}")
+             print(f"Average Score: {avg}")
+             print(f"Top Score: {top_score}")
+             print(f"Skills: {skills}")
+             print(f"Skills Count: {len(skills)}")    
     elif choice == "5":
        print("Performing Choice 5 Operation")
+       # Display System Info
+       print("="*50)
+       print("Contact Admin For Further Help")
+       print(f"Mobile Number {ADMIN_INFO[1]}")
+       print(f"Email ID {ADMIN_INFO[0]}")
+       print("="*50)
        break
     else:
        print("Invalid Choice select only (1-5)")  
+    
