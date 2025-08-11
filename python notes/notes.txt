@@ -1040,3 +1040,110 @@
         -> By default it is READ ONLY 
 
         -> If you want to change the value, then you need a keyword called global
+11th Aug 2025    
+==============
+
+-> Function Composition
+
+    -> Function calling another function is called as Function Composition
+
+-> Types Of Functions
+
+    -> Built In Functions
+    -> User Defined Functions
+    -> Lambda Functions (Anonymous Functions)
+
+-> User Defined Functions
+
+    -> Functions created by user, with def keyword, the Functions
+        we created so far, all are User Defined Functions
+
+-> Built In Functions
+
+    -> These functions are already defined by Python Language
+
+    -> We don't need to create them. just call them
+
+    -> Functionalities which are used on regular basis will be built in functions
+
+        -> print() 
+        -> id() 
+        -> input()
+        -> type()
+        -> len()
+        -> max()
+        -> min()
+
+    -> To get the inbuilt function we can use __builtin__ module
+
+-> Lambda Functions (Anonymous Functions)
+
+    -> A Lambda function is a small, one line function 
+    -> It doesn't have any name, that's why it's called Anonymous Function
+    -> Used for SINGLE LINE EXPRESSIONS, with keyword lambda 
+    -> Used for simple tasks, especially, when passing function as an argument
+
+    -> Syntax
+        lambda arguments: expression
+
+            -> You can pass multiple arguments
+            -> Only One Line Expression, you cannot pass multiple Statements 
+                like regular functions
+    
+    -> We have Immediate Invoked Lambda Expression(IILE)
+
+
+-> Functional Programming: Python also supports functional programming paradigms, 
+    such as lambda functions, map, filter, and reduce.
+    These features allow you to write concise, functional-style code 
+
+-> Idea Of Functional Programming
+
+    -> We can use Higher Order Functions i.e map, filter, and reduce.
+
+    -> Functions that take another function as an argument
+
+    -> Higher Order Functions goal is to let you perform common operations 
+    on iterables (like lists) in a very clean, concise, and efficient way, 
+    without writing explicit lengthy code for loops.
+
+    -> map - Applies a function to each item in the iterable
+
+        -> Just like a for loop 
+
+        -> Think of map() as "DO THIS FOR EVERY ITEM"
+
+        -> syntax 
+
+            map(function,iterable)
+
+    -> filter - Filters the items of an iterable, based on CONDITION
+
+        -> Just like a for loop with condition
+
+        -> Think of filter() as "KEEP ONLY ITEMS WHEN THE CONDITION IS MET"
+
+        -> syntax 
+
+            filter(function,iterable)  
+
+                -> the function must return True / False
+
+    -> reduce - reduces an iterable to a single value, by applying functions 
+        cumulatively
+
+     -> syntax 
+
+            reduce(function,iterable)  
+
+-> Implement As Functions
+
+    print("Choose an option: ")
+    print("1 - Add Student")
+    print("2 - Modify Student")
+    print("3 - Delete Student")
+    print("4 - List All Students")
+    print("5 - Search By Skill") --> Lambda Style 
+        -> Enter Skill To Search -> OP -> Student ID | Student Name 
+            -> No students found with skill git 
+    print("6 - Exit App")
