@@ -251,3 +251,88 @@ def increment():
     count += 1
 increment()
 print("Count: ",count)
+
+# Function Composition
+def add(a,b):
+    return a+b
+
+def sub(c,d,e): # (c+d)-e
+    return add(c,d) - e
+
+print(sub(3,4,5))
+
+# check builtins
+# print(dir(__builtins__))
+
+# Without Lambda Functions
+def add(a,b):
+    return a+b
+print(add(3,4))
+
+# With Lambda Functions
+# lambda arguments: expression
+sum = lambda a,b: a+b
+print(sum(5,4))
+
+# IILE Style
+print((lambda a,b: a+b) (10,20))
+print((lambda a,b: a+b) (100,200))
+
+# Without Functional Approach 
+def is_even(n):
+    if n % 2 == 0:
+        return True
+    else:
+        return False
+print(is_even(6))
+
+# lambda arguments: expression
+print((lambda n: n % 2 == 0) (5))
+print((lambda n: n % 2 == 0) (4))
+
+# Without Higher Order Functions
+
+# Input [1,2,3,4] --> Output [1,4,9,16]
+def square_list(numbers):
+    squared_list = []
+    for n in numbers:
+        squared_list.append(n * n)
+    return squared_list
+print(square_list([1,2,3,4]))
+
+# Using map for above functionality
+# map(function,iterable)
+# lambda arguments: expression
+print(map(lambda n: n * n,[1,2,3,4]))
+print(list(map(lambda n: n * n,[1,2,3,4])))
+
+# Without filter
+# Input [1,2,3,4,5,6,7,8,9,10] --> Output [2,4,6,8,10]
+def even_list(numbers):
+    even_numbers = []
+    for n in numbers:
+        if n % 2 == 0:
+            even_numbers.append(n)
+    return even_numbers
+print(even_list([1,2,3,4,5,6,7,8,9,10]))
+
+# Using filter for above functionality
+# filter(function,iterable)
+# lambda arguments: expression
+
+print(list(filter(lambda n: n % 2 ==0,[1,2,3,4,5,6,7,8,9,10])))
+
+# Without reduce
+# Input [1,2,3,4] --> Output 24 (1*2*3*4)
+def multiply_list(numbers):
+    result = 1
+    for n in numbers:
+        result = result * n
+    return result
+print(multiply_list([1,2,3,4]))
+
+# Using reduce for above functionality
+# reduce(function,iterable)
+# lambda arguments: expression
+from functools import reduce
+print(reduce(lambda x,y: x * y,[1,2,3,4,]))
