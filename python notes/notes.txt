@@ -1147,3 +1147,76 @@
         -> Enter Skill To Search -> OP -> Student ID | Student Name 
             -> No students found with skill git 
     print("6 - Exit App")
+
+13th Aug 2025    
+==============
+
+-> Modules 
+
+    -> Module - It's a simply python file that contains
+        -> Python Definitions (Variables, Functions, Classes)
+        -> Python Statements
+
+    -> Allows you to reuse the code across multiple Programs, by importing that Module 
+        instead of rewriting the code multiple times
+        
+        -> Code Reusability
+        -> Code Organization
+        -> Logical Separation Of Code
+
+    -> Types Of Modules
+
+        -> User Defined Modules
+            -> You create your own modules based on your requirement
+        -> Built In Modules
+            -> Pre-Installed comes with Python (math, random, sys, os etc)
+        -> External Modules
+            -> Modules provided by 3rd parties and communities, download and install
+                (Numpy, Pandas etc)
+
+
+    -> User Defined modules
+
+        -> Modules you create by yourself i.e simply a .py file
+
+    -> External Modules
+
+        -> PIP - Python Package Manager
+
+15th Aug 2025    
+==============
+
+    -> Packages - A package is a way to organize related modules(python files) together 
+
+    -> Module - A single .py file with some reuseable code
+
+    -> Package - A folder that contains multiple modules(python files)
+
+    -> Inside the folder, which you want to make as a package, we need to keep
+        a special file name __init__.py (can be empty -> start up configs can be kept)
+
+-> File Operations
+
+    -> File operations in python allows for creating, reading, updating and deleting
+
+    -> When working with data(persistent data), we want data to be stored 
+        beyond programs execution
+    
+    -> Opening File (Working with existing files)
+
+        -> 1st Approach using open function, and modes 
+            -> r - read (reading data)
+            -> w - write (will overwrite if file doesn't exist creates)
+            -> a - append (add to existing)
+
+        -> 2nd Approach using with open and modes    
+
+    -> NOTE - 1st approach file will not close automatically
+              2nd approach file will close automatically  
+
+    
+    -> Create a file
+        -> Using open with write mode, creates a file
+
+    
+-> Working With CSV files
